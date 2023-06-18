@@ -1,10 +1,10 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(110, 167, 185);
   }
   .nav li{
     list-style-type:none;
     float:left;
-    background-color:aquamarine;
+    
     padding:20px 25px;
     margin:4px px;
     border-radius: 1%;
@@ -13,8 +13,45 @@ body {
   }
   .nav ul{
     overflow: auto;
+       border: double 4px rgba(136, 56, 136, 0.2);
+       background-color:rgb(144, 149, 76);
     
   }
   .nav li a{
     text-decoration: none;
+  }
+  .iy{
+    font-family:cursive;
+  }
+  #er{
+    border:solid double yellow 2px;
+    position: relative;
+    
+    margin-right: 45px;
+
+
+  }
+  #er p{
+text: width 98px;
+text-align:right 56px;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
   }
