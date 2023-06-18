@@ -1,6 +1,20 @@
 body {
     background-color: lightblue;
   }
-  p{
-    text-align: center;
+  .nav li{
+    list-style-type:none;
+    float:left;
+    background-color:aquamarine;
+    padding:20px 25px;
+    margin:4px px;
+    border-radius: 1%;
+    
+    
+  }
+  .nav ul{
+    overflow: auto;
+    
+  }
+  .nav li a{
+    text-decoration: none;
   }
